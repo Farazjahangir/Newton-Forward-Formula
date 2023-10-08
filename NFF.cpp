@@ -12,7 +12,7 @@ int **createArray(int n)
     return arr;
 }
 
-void **takeInputFromUser(int **sdt, int n)
+void takeInputFromUser(int **sdt, int n)
 {
     for (int column = 0; column < 2; column++)
     {
